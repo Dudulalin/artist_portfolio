@@ -11,85 +11,161 @@
 </head>
 
 <body>
-    <div class="nav">
-        <div class="nav--burger" onclick="toggleMenu()">
-            <span class="nav--burger--bar"></span>
-            <span class="nav--burger--bar"></span>
-            <span class="nav--burger--bar"></span>
+
+    <div class="loading-container">
+        <div class="loading-bar">
+          <span class="loading-percentage">0%</span> <!-- Display percentage here -->
         </div>
-        <div class="nav--menu" id="navMenu">
-            <a href="#about">À propos</a>
-            <a href="#projects">Projets</a>
-            <a href="#contact">Contacts</a>
-        </div>
-    </div>
+      </div>
 
-    <button id="scrollToTopBtn" onclick="goUpBtn()">
-        <img class="go_up" src="./media/img/btn_up.svg" alt="Scroll to Top">
-    </button>
-
-    <section class="presentation">
-        <div class="presentation--content">
-            <img class="presentation--content--name" src="./media/img/intro/name.svg" alt="name">
-            <img class="presentation--content--arrow" src="./media/img/intro/triple_arrow.svg" alt="arrow">
-        </div>
-    </section>
-
-    <section class="about" id="about">
-        <img class="about--halfmoon" src="./media/img/about_me/halfmoon-about.svg" alt="">
-
-        <div class="about--content">
-            <h3 class="about--content--titre">Salut!! Je m’appelle Sitmonternna Yi</h3>
-            <img class="about--content--picture" src="./media/img/about_me/me_professional.svg" alt="my_face">
-
-            <p class="about--content--main">Je suis une étudiante en multimédia au Collège Montmorency,
-                avec une grande passion pour le montage et production de films,
-                l'animation 2D ainsi que le design graphique.</p>
-            <p class="about--content--call">-
-                Vous pouvez m'appeler Sit
-            </p>
-            <div class="about--content--reference">
-                <a href="./media/img/about_me/cv_yi_sitmonternna.pdf">
-                    <img class="about--content--cv" src="./media/img/about_me/icone/cv.svg" alt="">
-                </a>
-
-                <a href="mailto:ysitmonternna@gmail.com">
-                    <img class="about--content--gmail" src="./media/img/about_me/icone/mail.svg" alt="">
-                </a>
-
-
-                <a href="https://www.linkedin.com/feed/">
-                    <img class="about--content--linkedin" src="./media/img/about_me/icone/linkedin.svg" alt="">
-                </a>
+    <div class="content--main">
+        <div class="nav">
+            <div class="nav--burger" onclick="toggleMenu()">
+                <span class="nav--burger--bar"></span>
+                <span class="nav--burger--bar"></span>
+                <span class="nav--burger--bar"></span>
+            </div>
+            <div class="nav--menu" id="navMenu">
+                <a href="#about">À propos</a>
+                <a href="#projects">Projets</a>
+                <a href="#contact">Contacts</a>
             </div>
         </div>
-    </section>
 
-    <section class="projects" id="projects">
-        <img class="wave" src="./media/img/wave/pink-yellow_wave.svg" alt="">
+        <button id="scrollToTopBtn" onclick="goUpBtn()">
+            <img class="go_up" src="./media/img/btn_up.svg" alt="Scroll to Top">
+        </button>
 
-        <img class="title" src="./media/img/projects/title.svg" alt="title">
+        <section class="presentation">
+            <div class="presentation--content">
+                <img class="presentation--content--name" src="./media/img/intro/name.svg" alt="name">
+                <img class="presentation--content--arrow" src="./media/img/intro/triple_arrow.svg" alt="arrow">
+            </div>
+        </section>
 
-        <div #swiperRef="" class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
+        <section class="about" id="about">
+            <img class="about--halfmoon" src="./media/img/about_me/halfmoon-about.svg" alt="">
+
+            <div class="about--content">
+                <h3 class="about--content--titre">Salut!! Je m’appelle Sitmonternna Yi</h3>
+                <img class="about--content--picture" src="./media/img/about_me/me_professional.svg" alt="my_face">
+
+                <p class="about--content--main">Je suis une étudiante en multimédia au Collège Montmorency,
+                    avec une grande passion pour le montage et production de films,
+                    l'animation 2D ainsi que le design graphique.</p>
+                <p class="about--content--call">-
+                    Vous pouvez m'appeler Sit
+                </p>
+                <div class="about--content--reference">
+                    <a href="./media/img/about_me/cv_yi_sitmonternna.pdf">
+                        <img class="about--content--cv" src="./media/img/about_me/icone/cv.svg" alt="">
+                    </a>
+
+                    <a href="mailto:ysitmonternna@gmail.com">
+                        <img class="about--content--gmail" src="./media/img/about_me/icone/mail.svg" alt="">
+                    </a>
+
+
+                    <a href="https://www.linkedin.com/feed/">
+                        <img class="about--content--linkedin" src="./media/img/about_me/icone/linkedin.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <img class="wave" src="./media/img/wave/pink-yellow_wave.svg" alt="">
+
+            <img class="title" src="./media/img/projects/title.svg" alt="title">
+
+            <div #swiperRef="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="thumbnail" src="./media/img/projects/swiper/polaris/c_polaris_thumbnail.svg" alt="">
+                        <div class="hover-text">
+
+                            <h2>polaris</h2>
+                            <h4>Site web storytelling</h4>
+
+                        </div>
+                        <div class="plus">
+                            <a href="polaris.html">
+                                <img class="eye_link" src="./media/img/projects/swiper/savoir_link.svg" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="thumbnail" src="./media/img/projects/swiper/aurorae/c_aurorae.svg" alt="">
+                        <div class="hover-text">
+
+                            <h2>aurorae</h2>
+                            <h4>Court métrage intéractif</h4>
+
+                        </div>
+                        <div class="plus">
+                            <a href="aurorae.html">
+                                <img class="eye_link" src="./media/img/projects/swiper/savoir_link.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+
+                        <img class="thumbnail" src="./media/img/projects/swiper/chaos/c_chaos.svg" alt="">
+
+
+                        <div class="hover-text">
+
+                            <h2>chaos</h2>
+                            <h4>Animation 3d</h4>
+
+                        </div>
+                        <div class="plus">
+                            <a href="chaos.html">
+                                <img class="eye_link" src="./media/img/projects/swiper/savoir_link.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="thumbnail" src="./media/img/projects/swiper/cristalize/c_crystalize.svg" alt="">
+                        <div class="hover-text">
+
+                            <h2>crystalize</h2>
+                            <h4>Modélisation 3d</h4>
+
+                        </div>
+                        <div class="plus">
+                            <a href="crystalize.html">
+                                <img class="eye_link" src="./media/img/projects/swiper/savoir_link.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img class="swiper-button-next" src="./media/img/projects/swiper/btn_right.svg" alt="">
+                </div>
+                <div>
+                    <img class="swiper-button-prev" src="./media/img/projects/swiper/btn_left.svg" alt="">
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="small">
+
+                <div class="present">
                     <img class="thumbnail" src="./media/img/projects/swiper/polaris/c_polaris_thumbnail.svg" alt="">
-                    <div class="hover-text">
-
+                    <div class="text">
                         <h2>polaris</h2>
                         <h4>Site web storytelling</h4>
-
                     </div>
-                    <div class="plus">
-                        <a href="polaris.html">
-                            <img class="eye_link" src="./media/img/projects/swiper/savoir_link.svg" alt="">
-                        </a>
-                    </div>
-
+                    <a href="polaris.html">
+                        <img class="eye_link" src="./media/img/projects/swiper/savoir_link.svg" alt="">
+                    </a>
                 </div>
-                <div class="swiper-slide">
+
+                <div class="present">
                     <img class="thumbnail" src="./media/img/projects/swiper/aurorae/c_aurorae.svg" alt="">
-                    <div class="hover-text">
+                    <div class="text">
 
                         <h2>aurorae</h2>
                         <h4>Court métrage intéractif</h4>
@@ -101,12 +177,13 @@
                         </a>
                     </div>
                 </div>
-                <div class="swiper-slide">
+
+                <div class="present">
 
                     <img class="thumbnail" src="./media/img/projects/swiper/chaos/c_chaos.svg" alt="">
 
 
-                    <div class="hover-text">
+                    <div class="text">
 
                         <h2>chaos</h2>
                         <h4>Animation 3d</h4>
@@ -118,9 +195,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="swiper-slide">
+
+                <div class="present">
                     <img class="thumbnail" src="./media/img/projects/swiper/cristalize/c_crystalize.svg" alt="">
-                    <div class="hover-text">
+                    <div class="text">
 
                         <h2>crystalize</h2>
                         <h4>Modélisation 3d</h4>
@@ -132,177 +210,109 @@
                         </a>
                     </div>
                 </div>
-            </div>
-            <div>
-                <img class="swiper-button-next" src="./media/img/projects/swiper/btn_right.svg" alt="">
-            </div>
-            <div>
-                <img class="swiper-button-prev" src="./media/img/projects/swiper/btn_left.svg" alt="">
-            </div>
-            <div class="swiper-pagination"></div>
-        </div>
 
-        <div class="small">
-
-            <div class="present">
-                <img class="thumbnail" src="./media/img/projects/swiper/polaris/c_polaris_thumbnail.svg" alt="">
-                <div class="text">
-                    <h2>polaris</h2>
-                    <h4>Site web storytelling</h4>
-                </div>
-                <a href="polaris.html">
-                    <img class="eye_link" src="./media/img/projects/swiper/savoir_link.svg" alt="">
-                </a>
             </div>
 
-            <div class="present">
-                <img class="thumbnail" src="./media/img/projects/swiper/aurorae/c_aurorae.svg" alt="">
-                <div class="text">
 
-                    <h2>aurorae</h2>
-                    <h4>Court métrage intéractif</h4>
+        </section>
 
+
+        <section class="skills">
+            <img class="wave" src="./media/img/wave/yellow-wave.svg" alt="">
+
+            <div class="content">
+
+                <div class="contenue">
+                    <img class="title" src="./media/img/skills/title.svg" alt="">
+
+
+                    <img class="ordi" src="./media/img/skills/icon/ordi.svg" alt="">
+
+                    <p class="text_ordi">
+                        Design Web
+                    </p>
+
+                    <img class="editing" src="./media/img/skills/icon/editing.svg" alt="">
+
+                    <p class="text_editing">
+                        Montage sonore et vidéo
+                    </p>
+
+                    <img class="vector" src="./media/img/skills/icon/vector_pen.svg" alt="">
+
+                    <p class="text_vector">
+                        Illustration vectorielle
+                    </p>
+
+                    <img class="coding" src="./media/img/skills/icon/front_end.svg" alt="">
+
+                    <p class="text_coding">
+                        front-end coding
+                    </p>
+
+                    <img class="modele" src="./media/img/skills/icon/3d.svg" alt="">
+
+                    <p class="text_modele">
+                        Modélisation 3d
+                    </p>
+
+                    <img class="animation" src="./media/img/skills/icon/animation.svg" alt="">
+
+                    <p class="text_animation">
+                        Animation
+                    </p>
                 </div>
-                <div class="plus">
-                    <a href="aurorae.html">
-                        <img class="eye_link" src="./media/img/projects/swiper/savoir_link.svg" alt="">
-                    </a>
-                </div>
-            </div>
-
-            <div class="present">
-
-                <img class="thumbnail" src="./media/img/projects/swiper/chaos/c_chaos.svg" alt="">
-
-
-                <div class="text">
-
-                    <h2>chaos</h2>
-                    <h4>Animation 3d</h4>
-
-                </div>
-                <div class="plus">
-                    <a href="chaos.html">
-                        <img class="eye_link" src="./media/img/projects/swiper/savoir_link.svg" alt="">
-                    </a>
-                </div>
-            </div>
-
-            <div class="present">
-                <img class="thumbnail" src="./media/img/projects/swiper/cristalize/c_crystalize.svg" alt="">
-                <div class="text">
-
-                    <h2>crystalize</h2>
-                    <h4>Modélisation 3d</h4>
-
-                </div>
-                <div class="plus">
-                    <a href="crystalize.html">
-                        <img class="eye_link" src="./media/img/projects/swiper/savoir_link.svg" alt="">
-                    </a>
+                <div class="application">
+                    <img class="ae" src="./media/img/skills/application/after_effect.svg" alt="">
+                    <img class="davinci" src="./media/img/skills/application/davinci.svg" alt="">
+                    <img class="figma" src="./media/img/skills/application/figma.svg" alt="">
+                    <img class="illustrator" src="./media/img/skills/application/illustrator.svg" alt="">
+                    <img class="maya" src="./media/img/skills/application/maya.svg" alt="">
+                    <img class="photoshop" src="./media/img/skills/application/photoshop.svg" alt="">
+                    <img class="sass" src="./media/img/skills/application/sass.svg" alt="">
+                    <img class="unity" src="./media/img/skills/application/unity.svg" alt="">
+                    <img class="vs" src="./media/img/skills/application/vs.svg" alt="">
                 </div>
             </div>
 
-        </div>
+        </section>
 
+        <section class="interest">
+            <img class="wave" src="./media/img/wave/yellow_pink_wave.svg" alt="">
 
-    </section>
+            <img class="title" src="./media/img/interest/interest_title.svg" alt="">
+        </section>
 
-
-    <section class="skills">
-        <img class="wave" src="./media/img/wave/yellow-wave.svg" alt="">
-
-        <div class="content">
+        <section class="contact" id="contact">
+            <img class="wave" src="./media/img/wave/pink_blue_wave.svg" alt="">
 
             <div class="contenue">
-                <img class="title" src="./media/img/skills/title.svg" alt="">
+                <img class="text" src="./media/img/contacts/contact_text.svg" alt="">
+
+                <a class="email-link" href="mailto:ysitmonternna@gmail.com" target="_blank">
+                    <img class="gmail" src="./media/img/contacts/apllication/mi_email.svg" alt="">
+                </a>
 
 
-                <img class="ordi" src="./media/img/skills/icon/ordi.svg" alt="">
+                <a href="https://www.linkedin.com/feed/">
+                    <img class="linkedin" src="./media/img/contacts/apllication/icomoon-free_linkedin.svg" alt="">
+                </a>
 
-                <p class="text_ordi">
-                    Design Web
-                </p>
-
-                <img class="editing" src="./media/img/skills/icon/editing.svg" alt="">
-
-                <p class="text_editing">
-                    Montage sonore et vidéo
-                </p>
-
-                <img class="vector" src="./media/img/skills/icon/vector_pen.svg" alt="">
-
-                <p class="text_vector">
-                    Illustration vectorielle
-                </p>
-
-                <img class="coding" src="./media/img/skills/icon/front_end.svg" alt="">
-
-                <p class="text_coding">
-                    front-end coding
-                </p>
-
-                <img class="modele" src="./media/img/skills/icon/3d.svg" alt="">
-
-                <p class="text_modele">
-                    Modélisation 3d
-                </p>
-
-                <img class="animation" src="./media/img/skills/icon/animation.svg" alt="">
-
-                <p class="text_animation">
-                    Animation
-                </p>
             </div>
-            <div class="application">
-                <img class="ae" src="./media/img/skills/application/after_effect.svg" alt="">
-                <img class="davinci" src="./media/img/skills/application/davinci.svg" alt="">
-                <img class="figma" src="./media/img/skills/application/figma.svg" alt="">
-                <img class="illustrator" src="./media/img/skills/application/illustrator.svg" alt="">
-                <img class="maya" src="./media/img/skills/application/maya.svg" alt="">
-                <img class="photoshop" src="./media/img/skills/application/photoshop.svg" alt="">
-                <img class="sass" src="./media/img/skills/application/sass.svg" alt="">
-                <img class="unity" src="./media/img/skills/application/unity.svg" alt="">
-                <img class="vs" src="./media/img/skills/application/vs.svg" alt="">
+
+        </section>
+
+        <section class="thank_you">
+            <img class="wave" src="./media/img/wave/blue-wave.svg" alt="">
+
+            <div class="contenue">
+                <img class="thank_you_text" src="./media/img/thank_you/thank_you_title.svg" alt="">
+                <img class="work_text" src="./media/img/thank_you/work_together.svg">
+                <img class="avatar" src="./media/img/thank_you/thank_you_me.svg" alt="">
             </div>
-        </div>
+        </section>
 
-    </section>
-
-    <section class="interest">
-        <img class="wave" src="./media/img/wave/yellow_pink_wave.svg" alt="">
-
-        <img class="title" src="./media/img/interest/interest_title.svg" alt="">
-    </section>
-
-    <section class="contact" id="contact">
-        <img  class="wave" src="./media/img/wave/pink_blue_wave.svg" alt="">
-
-        <div class="contenue">
-            <img class="text" src="./media/img/contacts/contact_text.svg" alt="">
-
-            <a class="email-link" href="mailto:ysitmonternna@gmail.com" target="_blank">
-                <img class="gmail" src="./media/img/contacts/apllication/mi_email.svg" alt="">
-            </a>
-
-
-            <a href="https://www.linkedin.com/feed/">
-                <img class="linkedin" src="./media/img/contacts/apllication/icomoon-free_linkedin.svg" alt="">
-            </a>
-
-        </div>
-
-    </section>
-
-    <section class="thank_you">
-        <img class="wave" src="./media/img/wave/blue-wave.svg" alt="">
-
-        <div class="contenue">
-            <img class="thank_you_text" src="./media/img/thank_you/thank_you_title.svg" alt="">
-            <img class="work_text" src="./media/img/thank_you/work_together.svg">
-            <img class="avatar" src="./media/img/thank_you/thank_you_me.svg" alt="">
-        </div>
-    </section>
+    </div>
 
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
