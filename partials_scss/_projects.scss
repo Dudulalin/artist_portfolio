@@ -71,13 +71,13 @@
     .swiper-button {
         &-prev {
             position: absolute;
-            transform: scale(5);
+            transform: scale(3);
             left: 15%;
         }
 
         &-next {
             position: absolute;
-            transform: scale(5);
+            transform: scale(3);
             right: 15%;
         }
     }
@@ -149,7 +149,7 @@
 
 
 }
-
+/*
 @media only screen and (min-width: 475px) and (max-width: 768px) {
 
     .projects {
@@ -196,7 +196,7 @@
                     transition: opacity 0.3s ease;
                     z-index: 1000;
 
-                    /* Above the overlay */
+                    
                     h2 {
                         font-family: kiwiMaru;
                         font-size: 18px;
@@ -224,8 +224,6 @@
 
     }
 }
-
-
 @media only screen and (min-width: 275px) and (max-width: 475px) {
 
 
@@ -270,7 +268,7 @@
                     transition: opacity 0.3s ease;
                     z-index: 1000;
 
-                    /* Above the overlay */
+                   
                     h2 {
                         font-family: kiwiMaru;
                         font-size: 8px;
@@ -347,7 +345,7 @@
                     transition: opacity 0.3s ease;
                     z-index: 1000;
 
-                    /* Above the overlay */
+                   
                     h2 {
                         font-family: kiwiMaru;
                         font-size: 8px;
@@ -374,3 +372,4 @@
     }
 
 }
+*/
