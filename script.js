@@ -14,7 +14,7 @@ function toggleMenu() {
 
 
 //swipper
-
+/*
 const swiper = new Swiper('.mySwiper', {
   slidesPerView: 1,
   spaceBetween: 30,
@@ -27,5 +27,21 @@ const swiper = new Swiper('.mySwiper', {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-});
+});*/
+
+ const swiper = new Swiper(".mySwiper", {
+
+    slidesPerView: 1.5,        // show 1 full + half of the next
+    centeredSlides: true,      // centers the active slide
+    spaceBetween: 10,          // spacing between slides
+    loop: true,                // optional: makes it infinite
+    pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  });
 
