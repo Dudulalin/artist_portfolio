@@ -439,8 +439,6 @@
   -o-object-fit: cover;
      object-fit: cover;
   background-position: center;
-  border-radius: 30px;
-  transform: skewY(-5deg);
   /*&.thumbnail{
       width: 70%;
       height: 100%;
