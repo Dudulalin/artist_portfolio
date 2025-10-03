@@ -1,9 +1,11 @@
 :root {
-    --lightBeige: #FEF0E7;
-    --sunshine: #F8C459;
-    --blush: #FF9894;
-    --pinkishBrown: #B2605D;
-    --cloudyBlue: #AAC8CA;
-    --greyAsparagus: #38585A;
-    --hawaiianTan: #AB4D05;
+    --lightpurple: #F9F8FF;
+    --pastel: #DFDDF2;
+    --lavendar: #887DAA;
+    --mild: #ABA1C6;
+    --darkest: #3D2641;
+}
+
+body{
+    background-color: var(--lightpurple);
 }
